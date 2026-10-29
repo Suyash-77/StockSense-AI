@@ -1,0 +1,72 @@
+# =========================
+# Python virtual environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Python cache and compiled files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Environment variables and secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Node.js dependencies
+# =========================
+node_modules/
+Frontend/node_modules/
+
+# =========================
+# React production build
+# =========================
+Frontend/dist/
+
+# =========================
+# Generated datasets
+# =========================
+ML/Data/Processed/*
+ML/Data/Raw/*.csv
+
+# Keep README files explaining the data folders
+!ML/Data/Processed/README.md
+!ML/Data/Raw/README.md
+
+# =========================
+# Trained models
+# =========================
+ML/Saved Models/*.joblib
+ML/Saved Models/*.pkl
+ML/Saved Models/*.json
+
+# Uncomment if you also want to ignore LightGBM text model files
+# ML/Saved Models/*.txt
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# IDE and operating system files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
